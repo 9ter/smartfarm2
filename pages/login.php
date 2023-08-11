@@ -16,7 +16,7 @@ if (isset($_POST['user']) && isset($_POST['password'])) {
         // ล็อกอินสำเร็จ
         echo "ล็อกอินสำเร็จ!";
         $_SESSION["user"] = $username;
-        header("Location: https://snapshots.raintank.io/dashboard/snapshot/KhNtomPEu02bbGyKDsEM67hUfE7oWYWO?orgId=2");
+        header("Location: ../index.php");
     } else {
         // ล็อกอินไม่สำเร็จ
         echo "ชื่อผู้ใช้หรือรหัสผ่านไม่ถูกต้อง!";
